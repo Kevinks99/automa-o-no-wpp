@@ -16,7 +16,7 @@ pyautogui.moveTo(x=360, y=469)
 pyautogui.click(x=360, y=469)
 
 #escrever mensagem
-texto = 'Mensagem de teste, não leve em concideração'
+texto = 'Mensagem de teste'
 pyperclip.copy(texto)
 pyautogui.hotkey('ctrl', 'v')
 
